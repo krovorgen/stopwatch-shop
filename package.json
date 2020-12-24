@@ -25,5 +25,11 @@
   "bugs": {
     "url": "https://github.com/krovorgen/template-uweb/issues"
   },
-  "homepage": "https://github.com/krovorgen/template-uweb#readme"
+  "homepage": "https://github.com/krovorgen/template-uweb#readme",
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ]
 }
