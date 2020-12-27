@@ -8,6 +8,12 @@
     font-size: 12px;
     font-weight: 500;
     text-transform: uppercase;
+    &:hover {
+        color: $main-color;
+        background-color: #ffffff;
+        border: 1px solid #a3a3a3;
+        transition: 0.5s all;   
+    }
     &_main {
         margin-top: 68px;
         width: 300px;
@@ -26,10 +32,7 @@
         width: 131px;
         height: 40px;
         font-size: 14px;
-        &:hover {
-            color: $main-color;
-            background-color: #e2e2e2;
-            transition: 0.5s all;
-        }
+        transition: 0.5s all;
+        
     }
 }
