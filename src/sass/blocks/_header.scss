@@ -1,38 +1,45 @@
 .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  /* ниже для изменения логотипа в будущем */
+  &__logo {
+    width: 250px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &__official {
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+
+    span {
+      display: block;
+      font-size: 18px;
+    }
+  }
+
+  &__phone {
+    display: block;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+
+    &:hover {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+
+  &__contacts {
+    /* Для выравнивания содержимого по центру */
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    /* ниже для изменения логотипа в будущем */
-    &__logo {
-        width: 250px;
-        img {
-            width: 100%;
-        }
-    }
-    &__official {
-        color: #ffffff;
-        font-size: 12px;
-        font-weight: 500;
-        text-align: center;
-        span {
-            display: block;
-            font-size: 18px;
-        }
-    }
-    &__phone {
-        display: block;
-        color: #ffffff;
-        font-size: 18px;
-        font-weight: 700;
-        &:hover {
-            color: #fff;
-            text-decoration: none;
-        }
-    }
-    &__contacts {
-        /* Для выравнивания содержимого по центру */
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  }
 }

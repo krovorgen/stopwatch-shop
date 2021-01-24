@@ -1,23 +1,26 @@
 .consultation {
-    min-height: 680px;
-    padding: 100px 0 92px 0;
-    background: url(../img/feedback-bg.jpg) center (center/cover) no-repeat;
-    &__descr {
-        margin-top: 80px;
-        color: #ffffff;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 1.5;
-        text-align: left;
-    }
-    .error {
-		border: 1px solid red;
-	}
-	label.error {
-        color: #ffffff;
-		border: none;
-		text-align: center;
-		margin-bottom: 15px;
-		font-size: 14px;
-	}
+  padding: 100px 0 92px;
+  min-height: 680px;
+  background: url("../img/feedback-bg.jpg") center (center/cover) no-repeat;
+
+  &__descr {
+    margin-top: 80px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: left;
+    color: #fff;
+  }
+
+  .error {
+    border: 1px solid #f00;
+  }
+
+  label.error {
+    margin-bottom: 15px;
+    border: none;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+  }
 }

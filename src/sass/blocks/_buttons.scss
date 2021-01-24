@@ -1,45 +1,50 @@
 .button {
-    width: 150px;
-    height: 30px;
-    border-radius: 5px;
-    background-color: $main-color;
-    outline: none;
-    border: none;
-    color: #ffffff;
-    font-size: 12px;
-    font-weight: 500;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: $main-color;
+  transition: 0.5s all;
+
+  &_main {
+    margin-top: 68px;
+    width: 300px;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
     text-transform: uppercase;
+    color: #fff;
+  }
+
+  &_submit {
+    width: 300px;
+    height: 55px;
+    font-size: 16px;
+  }
+
+  &_mini {
+    width: 131px;
+    height: 40px;
+    font-size: 14px;
     transition: 0.5s all;
-    outline: none;
-    &:hover {
-        color: $main-color;
-        background-color: #ffffff;
-        border: 1px solid #a3a3a3;
-        transition: 0.5s all;   
-    }
-    &:active, &:hover, &:focus {
-        outline: 0;
-        outline-offset: 0;
-    }
-    &_main {
-        margin-top: 68px;
-        width: 300px;
-        height: 50px;
-        color: #ffffff;
-        font-size: 16px;
-        text-align: center;
-        text-transform: uppercase;
-    }
-    &_submit {
-        width: 300px;
-        height: 55px;
-        font-size: 16px;
-    }
-    &_mini {
-        width: 131px;
-        height: 40px;
-        font-size: 14px;
-        transition: 0.5s all;
-        
-    }
+  }
+
+  &:active,
+  &:hover,
+  &:focus {
+    outline: 0;
+    outline-offset: 0;
+  }
+
+  &:hover {
+    border: 1px solid #a3a3a3;
+    color: $main-color;
+    background-color: #fff;
+    transition: 0.5s all;
+  }
 }
